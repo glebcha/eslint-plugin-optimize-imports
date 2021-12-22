@@ -51,7 +51,7 @@ Default options for `optimize-breaks` rule:
         "optimize-imports/optimize-breaks": ["warn", {
             "afterCount": 2,
             "symbol": "tab",
-            "symbolsCount": 4
+            "symbolsCount": 1
         }]
     }
 }

@@ -1,0 +1,18 @@
+{
+  "name": "eslint-plugin-optimize-imports",
+  "version": "1.0.0",
+  "description": "Eslint plugin to define codestyle of import declarations",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "author": "Glebcha",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "mocha": "^9.1.3"
+  }
+}

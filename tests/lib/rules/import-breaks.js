@@ -17,10 +17,10 @@ ruleTester.run('import breaks test', rule, {
     valid: [
 		{
 			code: `import react, {
-				Fragment,
-				useState,
-				useEffect,
-				useReducer
+	Fragment,
+	useState,
+	useEffect,
+	useReducer
 } from 'react';`,
 			options: [],
 		},
@@ -29,10 +29,10 @@ ruleTester.run('import breaks test', rule, {
 		{
 			code: `import react, {Fragment, useState, useEffect, useReducer} from "react";`,
 			output: `import react, {
-				Fragment,
-				useState,
-				useEffect,
-				useReducer
+	Fragment,
+	useState,
+	useEffect,
+	useReducer
 } from "react";`,
 			options: [{ afterCount: 3 }],
 			errors: ['Consider to place every import specifier on new line after count of 3 reached']

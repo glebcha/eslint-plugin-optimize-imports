@@ -27,9 +27,9 @@ ruleTester.run('import breaks test', rule, {
     ],
     invalid: [
 		{
-			code: `import react, {Fragment, useState, useEffect, useReducer} from "react";`,
+			code: `import react, {Fragment as ReactFragment, useState, useEffect, useReducer} from "react";`,
 			output: `import react, {
-	Fragment,
+	Fragment as ReactFragment,
 	useState,
 	useEffect,
 	useReducer

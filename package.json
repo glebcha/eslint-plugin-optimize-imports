@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-optimize-imports",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Eslint plugin to define codestyle of import declarations",
   "main": "lib/index.js",
   "scripts": {

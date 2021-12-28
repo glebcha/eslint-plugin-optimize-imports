@@ -24,6 +24,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
+        "optimize-imports/import-react": "warn",
         "optimize-imports/import-quotes": "warn",
         "optimize-imports/import-breaks": "warn"
     }
@@ -56,6 +57,43 @@ Default options for `optimize-breaks` rule:
     }
 }
 ```
+
+## Optimizations
+
+Result of `optimize-react` when possible:
+
+```javascript
+import * as React from 'react';
+```
+
+Result of `optimize-quotes` when possible:
+
+```javascript
+// Before
+import { Fragment } from "react";
+
+// After
+import { Fragment } from 'react';
+```
+
+Result of `optimize-breaks` when possible:
+
+```javascript
+// Before
+import {
+    Fragment as ReactFragment, useState, 
+    useEffect, useReducer} from 'react';
+
+// After
+import {
+    Fragment as ReactFragment, 
+    useState, 
+    useEffect, 
+    useReducer
+} from 'react';
+```
+
+
 
 ## License
 

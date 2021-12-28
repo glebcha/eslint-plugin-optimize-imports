@@ -1,5 +1,7 @@
 # eslint-plugin-optimize-imports
 
+![](https://img.shields.io/npm/dm/eslint-plugin-optimize-imports?style=flat-square)
+
 ## Installation
 
 ```

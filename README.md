@@ -66,6 +66,8 @@ Result of `optimize-react` when possible:
 import * as React from 'react';
 ```
 
+> :warning: **[React team will drop default imports support in future versions](https://twitter.com/dan_abramov/status/1308739731551858689?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1308739731551858689%7Ctwgr%5E%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fepicreact.dev%2Fimporting-react-through-the-ages%2F)**
+
 Result of `optimize-quotes` when possible:
 
 ```javascript
